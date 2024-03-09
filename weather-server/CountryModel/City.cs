@@ -18,6 +18,10 @@ public partial class City
     [Column(TypeName = "numeric(18, 4)")]
     public decimal Longitude { get; set; }
 
+    public required string Name { get; set; }
+
+    public int Population { get; set; }
+
     public int CountryId { get; set; }
 
     [ForeignKey("CountryId")]
