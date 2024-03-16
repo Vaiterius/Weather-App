@@ -6,102 +6,47 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CountryModel;
+using weather_server.DTO;
 
 namespace weather_server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CitiesController : ControllerBase
+    public class CitiesController(CountriesSourceContext context) : ControllerBase
     {
-        private readonly CountriesSourceContext _context;
-
-        public CitiesController(CountriesSourceContext context)
-        {
-            _context = context;
-        }
-
         // GET: api/Cities
         [HttpGet]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
-            return await _context.Cities.ToListAsync();
+            return await context.Cities.ToListAsync();
         }
 
-        // GET: api/Cities/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<City>> GetCity(int id)
+        [HttpGet("GetPopulation")]
+        public async Task<ActionResult<IEnumerable<CountryPopulation>>> GetPopulation()
         {
-            var city = await _context.Cities.FindAsync(id);
-
-            if (city == null)
-            {
-                return NotFound();
-            }
-
-            return city;
-        }
-
-        // PUT: api/Cities/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCity(int id, City city)
-        {
-            if (id != city.CityId)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(city).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CityExists(id))
+            // Select statement returns string query, then convert into enumerable list (the results).
+            IQueryable<CountryPopulation> query = from c in context.Countries
+                select new CountryPopulation
                 {
-                    return NotFound();
-                }
-                else
+                    Name = c.Name,
+                    CountryId = c.CountryId,
+                    Population = c.Cities.Sum(t => t.Population)
+                };
+            return await query.ToListAsync();
+        }
+
+        // Other way to write the same thing as the method above.
+        [HttpGet("GetPopulation2")]
+        public async Task<ActionResult<IEnumerable<CountryPopulation>>> GetPopulation2()
+        {
+            IQueryable<CountryPopulation> query = context.Countries.Select(c =>
+                new CountryPopulation
                 {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Cities
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<City>> PostCity(City city)
-        {
-            _context.Cities.Add(city);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetCity", new { id = city.CityId }, city);
-        }
-
-        // DELETE: api/Cities/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCity(int id)
-        {
-            var city = await _context.Cities.FindAsync(id);
-            if (city == null)
-            {
-                return NotFound();
-            }
-
-            _context.Cities.Remove(city);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool CityExists(int id)
-        {
-            return _context.Cities.Any(e => e.CityId == id);
+                    Name = c.Name,
+                    CountryId = c.CountryId,
+                    Population = c.Cities.Sum(t => t.Population)
+                });
+            return await query.ToListAsync();
         }
     }
 }
