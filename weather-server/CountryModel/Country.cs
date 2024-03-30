@@ -12,7 +12,7 @@ public partial class Country
     [Key]
     public int CountryId { get; set; }
 
-    [StringLength(20)]
+    //[StringLength(20)]
     [Unicode(false)]
     public string Name { get; set; } = null!;
 

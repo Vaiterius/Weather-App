@@ -1,6 +1,9 @@
+C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\appsettings.json
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\CountryModel.deps.json
+C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\CountryModel.runtimeconfig.json
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\CountryModel.dll
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\CountryModel.pdb
+C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.csproj.AssemblyReference.cache
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.AssemblyInfoInputs.cache
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.AssemblyInfo.cs
@@ -9,8 +12,5 @@ C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.dll
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\refint\CountryModel.dll
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.pdb
-C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\ref\CountryModel.dll
-C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\CountryModel.runtimeconfig.json
 C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.genruntimeconfig.cache
-C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\CountryModel.csproj.AssemblyReference.cache
-C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\bin\Debug\net8.0\appsettings.json
+C:\Users\gbg49448\source\repos\Weather-App\weather-server\CountryModel\obj\Debug\net8.0\ref\CountryModel.dll
