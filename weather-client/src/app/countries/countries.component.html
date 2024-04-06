@@ -1,2 +1,24 @@
-<app-countries></app-countries>
-<!-- <p>countries works!</p> -->
+<div class="table-display">
+    <h1>Countries Of The World</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>iso2</th>
+                <th>iso3</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (country of countries; track $index) {
+                <tr>
+                    <td><a [routerLink]="['/country-cities/', country.countryId]">{{ country.countryId }}</a></td>
+                    <td>{{ country.name }}</td>
+                    <td>{{ country.iso2 }}</td>
+                    <td>{{ country.iso3 }}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

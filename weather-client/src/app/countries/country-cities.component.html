@@ -1,0 +1,26 @@
+<div class="table-display">
+    <h1>Cities of ...</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>latitude</th>
+                <th>longitude</th>
+                <th>population</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (city of cities; track $index) {
+                <tr>
+                    <td>{{ city.cityId }}</td>
+                    <td>{{ city.name }}</td>
+                    <td>{{ city.latitude }}</td>
+                    <td>{{ city.longitude }}</td>
+                    <td>{{ city.population }}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

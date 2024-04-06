@@ -2,3 +2,32 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.table-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-weight: bold;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    table {
+        tr:nth-child(even) {
+            background: #F2F2F2;
+        }
+        tr:nth-child(odd) {
+            background: #FFF;
+        }
+        th, td {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            a:link {
+                text-decoration: none;
+            }
+        }
+    }
+}

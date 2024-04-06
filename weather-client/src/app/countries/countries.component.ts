@@ -1,4 +1,5 @@
 import { HttpClient } from '@angular/common/http';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { Component } from '@angular/core';
 import { environment } from '../../environments/environment.development';
 import { Country } from './country';
@@ -6,7 +7,7 @@ import { Country } from './country';
 @Component({
   selector: 'app-countries',
   standalone: true,
-  imports: [],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './countries.component.html',
   styleUrl: './countries.component.scss'
 })
