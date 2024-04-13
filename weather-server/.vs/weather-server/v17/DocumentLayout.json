@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\dto\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\dto\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59085E29-27E3-4099-90F7-B7D412AFF256}|CountryModel\\CountryModel.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\countrymodel\\countriessourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59085E29-27E3-4099-90F7-B7D412AFF256}|CountryModel\\CountryModel.csproj|solutionrelative:countrymodel\\countriessourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59085E29-27E3-4099-90F7-B7D412AFF256}|CountryModel\\CountryModel.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\countrymodel\\worldcitiesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59085E29-27E3-4099-90F7-B7D412AFF256}|CountryModel\\CountryModel.csproj|solutionrelative:countrymodel\\worldcitiesuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|c:\\users\\gbg49448\\source\\repos\\weather-app\\weather-server\\weather-server\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C8D80A8-8637-40AD-87E0-38C0BB354EE2}|weather-server\\weather-server.csproj|solutionrelative:weather-server\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +59,142 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\DTO\\LoginResult.cs",
+              "RelativeDocumentMoniker": "weather-server\\DTO\\LoginResult.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\DTO\\LoginResult.cs",
+              "RelativeToolTip": "weather-server\\DTO\\LoginResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T03:41:05.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "weather-server\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "weather-server\\DTO\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T03:39:07.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "weather-server\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "weather-server\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T03:32:46.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "weather-server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\appsettings.Development.json",
+              "RelativeToolTip": "weather-server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T03:04:48.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\JwtHandler.cs",
+              "RelativeDocumentMoniker": "weather-server\\JwtHandler.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\JwtHandler.cs",
+              "RelativeToolTip": "weather-server\\JwtHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:59:27.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeedController.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\SeedController.cs",
+              "RelativeDocumentMoniker": "weather-server\\Controllers\\SeedController.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\SeedController.cs",
+              "RelativeToolTip": "weather-server\\Controllers\\SeedController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwBoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:45:55.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Program.cs",
+              "RelativeDocumentMoniker": "weather-server\\Program.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Program.cs",
+              "RelativeToolTip": "weather-server\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:03:17.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountriesSourceContext.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\CountryModel\\CountriesSourceContext.cs",
+              "RelativeDocumentMoniker": "CountryModel\\CountriesSourceContext.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\CountryModel\\CountriesSourceContext.cs",
+              "RelativeToolTip": "CountryModel\\CountriesSourceContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T01:31:38.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorldCitiesUser.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\CountryModel\\WorldCitiesUser.cs",
+              "RelativeDocumentMoniker": "CountryModel\\WorldCitiesUser.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\CountryModel\\WorldCitiesUser.cs",
+              "RelativeToolTip": "CountryModel\\WorldCitiesUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T01:28:32.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "weather-server\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "weather-server\\Controllers\\CitiesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T01:14:08.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CountriesController.cs",
               "DocumentMoniker": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\CountriesController.cs",
               "RelativeDocumentMoniker": "weather-server\\Controllers\\CountriesController.cs",
               "ToolTip": "C:\\Users\\gbg49448\\source\\repos\\Weather-App\\weather-server\\weather-server\\Controllers\\CountriesController.cs",
               "RelativeToolTip": "weather-server\\Controllers\\CountriesController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T01:34:12.973Z",
               "EditorCaption": ""

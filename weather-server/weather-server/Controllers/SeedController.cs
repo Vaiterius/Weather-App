@@ -11,14 +11,38 @@ using System.Globalization;
 using CsvHelper;
 using weather_server.Data;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Identity;
 
 namespace weather_server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SeedController(CountriesSourceContext db, IHostEnvironment environment) : ControllerBase
+    public class SeedController(CountriesSourceContext db, IHostEnvironment environment, UserManager<WorldCitiesUser> userManager) : ControllerBase
     {
         private readonly string _pathName = Path.Combine(environment.ContentRootPath, "Data/worldcities.csv");
+
+        [HttpPost("User")]
+        public async Task<ActionResult> SeedUser()
+        {
+            (string name, string email) = ("user1", "comp584@csun.edu");
+            WorldCitiesUser user = new()
+            {
+                UserName = name,
+                Email = email,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+            if (await userManager.FindByNameAsync(name) is not null)
+            {
+                user.UserName = "user2";
+            }
+            _ = await userManager.CreateAsync(user, "P@ssw0rd!")
+                ?? throw new InvalidOperationException();
+            user.EmailConfirmed = true;
+            user.LockoutEnabled = false;
+            await db.SaveChangesAsync();
+
+            return Ok();
+        }
 
         [HttpPost("City")]
         public async Task<ActionResult<City>> SeedCity()
